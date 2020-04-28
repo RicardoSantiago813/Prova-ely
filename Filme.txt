@@ -1,0 +1,60 @@
+
+public class Filme {
+	
+	 String titulo;
+	 int AnoLancamento;
+	
+	 String nome;
+	 String DataDeNascimento;
+	 String nacionalidade;
+	
+	 String EstiloMusical;
+	 
+	  public void filme(String titulo, int AnoLancamento) {
+			 System.out.println("Nome Filme: " + titulo + "\nAno lancamento:" + AnoLancamento);
+			 System.out.println("*********************");
+			 
+	 }
+	 
+	 public void Ator(String nome, String DataDeNascimento ,String nacionalidade) {
+		 
+		 this.nome = nome;
+		 this.DataDeNascimento = DataDeNascimento;
+		 this.nacionalidade = nacionalidade;
+		 
+		 System.out.println("Nome Ator: " + nome + "\nData nascimento:" + DataDeNascimento + "\nNacionalidade:"+
+		 nacionalidade);
+		 System.out.println("*********************");
+		 
+	 }
+	 
+    public void Diretor(String nome, String DataDeNascimento) {
+		 
+		 this.nome = nome;
+		 this.DataDeNascimento = DataDeNascimento;
+		
+		 System.out.println("Nome Diretor: " + nome + "\nData nascimento:" + DataDeNascimento);
+		 System.out.println("*********************");
+		 
+	 }
+    
+    public void Musico(String nome, String DataDeNascimento ,String EstiloMusical) {
+		 
+		 this.nome = nome;
+		 this.DataDeNascimento = DataDeNascimento;
+		 this.EstiloMusical = EstiloMusical;
+		 
+		 System.out.println("Nome Musico: " + nome + "\nData nascimento:" + DataDeNascimento + "\nEstilo Musical:"+
+		 EstiloMusical);
+		 System.out.println("*********************");
+		 
+	 }
+	 
+    
+	 public String toString() { 
+		 return  this.nome +  this.DataDeNascimento + this.nacionalidade + this.EstiloMusical + this.titulo + this.AnoLancamento;
+		 
+	 }
+	
+
+}

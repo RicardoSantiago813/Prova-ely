@@ -1,0 +1,16 @@
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Filme filme = new Filme();
+		
+		filme.filme("A mumia", 2007);
+		filme.Ator("Ricardo","11/10/1990","Brasil");
+		filme.Ator("Carlos","11/10/1987","Brasil");
+		filme.Diretor("Fulano","11/11/2000");
+		filme.Musico("Fulano2","20/01/2000","Hip Hop");
+		
+
+	}
+
+}
